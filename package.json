@@ -6,9 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "snowflake-sdk": "^1.9.0"
   },
   "devDependencies": {
+    "@types/snowflake-sdk": "^1.6.16",
     "bun-types": "latest"
   },
   "module": "src/index.js"
